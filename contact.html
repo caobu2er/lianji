@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>联系我们 · 连际纺织品</title>
+  <meta name="description" content="连际纺织品展厅、工厂与看样预约。上海、绍兴两地可访。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">
+      <span>连际</span>
+      <em>LIANJI</em>
+    </a>
+    <input type="checkbox" id="nav-toggle" />
+    <label class="menu-btn" for="nav-toggle">菜单</label>
+    <nav>
+      <a href="index.html">首页</a>
+      <a href="products.html">产品</a>
+      <a href="process.html">工艺</a>
+      <a href="about.html">关于</a>
+      <a href="sustainability.html">可持续</a>
+      <a class="active" href="contact.html">联系</a>
+      <span class="lang">
+        <a class="active" href="contact.html">中</a>
+        <a href="en/contact.html">EN</a>
+        <a href="ru/contact.html">RU</a>
+      </span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero weave" style="padding-top:88px">
+      <div>
+        <div class="eyebrow">Contact</div>
+        <h1>来展厅，或让我们寄样。</h1>
+      </div>
+      <p>工作日 9:00 – 18:00。看样请提前预约，便于准备对应季节的色卡与手感样。</p>
+    </section>
+
+    <section>
+      <div class="contact-grid">
+        <div>
+          <div class="section-head" style="margin-bottom:12px">
+            <h2>办公地点</h2>
+          </div>
+          <div class="office">
+            <h3>上海展厅</h3>
+            <p>虹桥纺织中心 8F · 上海市闵行区申滨路</p>
+            <p>电话 021-5888 1200</p>
+            <p>预约看样、色卡与季节开发</p>
+          </div>
+          <div class="office">
+            <h3>绍兴工厂 / 仓储</h3>
+            <p>柯桥中国轻纺城周边 · 浙江省绍兴市</p>
+            <p>电话 0575-8412 6600</p>
+            <p>大货质检、卷装与发货</p>
+          </div>
+          <div class="office">
+            <h3>邮箱</h3>
+            <p>hello@lianji.textile · 综合咨询</p>
+            <p>sample@lianji.textile · 寄样</p>
+            <p>order@lianji.textile · 大货订单</p>
+          </div>
+          <div class="map">
+            <span>SHANGHAI SHOWROOM · 8F</span>
+          </div>
+        </div>
+        <form action="#" method="get" onsubmit="this.querySelector('.note').textContent='已记录，我们会在一个工作日内回复。'; return false;">
+          <div class="eyebrow">Inquiry</div>
+          <h2 class="serif" style="font-size:32px;font-weight:500">预约 / 寄样</h2>
+          <label>姓名
+            <input type="text" name="name" required />
+          </label>
+          <label>公司
+            <input type="text" name="company" />
+          </label>
+          <label>邮箱
+            <input type="email" name="email" required />
+          </label>
+          <label>需求类型
+            <select name="type">
+              <option>预约展厅看样</option>
+              <option>远程寄送色卡</option>
+              <option>打样 / 改色</option>
+              <option>大货询价</option>
+            </select>
+          </label>
+          <label>说明
+            <textarea name="message" placeholder="季节、克重、用途或来样编号"></textarea>
+          </label>
+          <button class="btn" type="submit">发送</button>
+          <p class="note">表单仅在当前页提示，不会上传到服务器。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h3>预约看样</h3>
+      <p>工作日 9:00 – 18:00，欢迎来访展厅或远程寄样。</p>
+    </div>
+    <div>
+      <p>展厅 · 上海虹桥纺织中心 8F</p>
+      <p>电话 · 021-5888 1200</p>
+      <p>邮箱 · hello@lianji.textile</p>
+    </div>
+    <div>
+      <p><a href="products.html">产品目录</a></p>
+      <p><a href="about.html">品牌简介</a></p>
+      <p><a href="process.html">合作方式</a></p>
+      <p><a href="contact.html">联系我们</a></p>
+    </div>
+    <div class="copy">© 2026 连际纺织品 LIANJI TEXTILE</div>
+  </footer>
+</body>
+</html>
