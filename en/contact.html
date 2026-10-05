@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact · Lianji Textile</title>
+  <meta name="description" content="Lianji Textile showroom, mill and sample appointments in Shanghai and Shaoxing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">
+      <span>连际</span>
+      <em>LIANJI</em>
+    </a>
+    <input type="checkbox" id="nav-toggle" />
+    <label class="menu-btn" for="nav-toggle">Menu</label>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="process.html">Craft</a>
+      <a href="about.html">About</a>
+      <a href="sustainability.html">Sustainability</a>
+      <a class="active" href="contact.html">Contact</a>
+      <span class="lang">
+        <a href="../contact.html">中</a>
+        <a class="active" href="contact.html">EN</a>
+        <a href="../ru/contact.html">RU</a>
+      </span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero weave" style="padding-top:88px">
+      <div>
+        <div class="eyebrow">Contact</div>
+        <h1>Visit the showroom, or let us send samples.</h1>
+      </div>
+      <p>Weekdays 9:00 – 18:00. Please book ahead so we can prepare the season’s color cards and hand swatches.</p>
+    </section>
+
+    <section>
+      <div class="contact-grid">
+        <div>
+          <div class="section-head" style="margin-bottom:12px">
+            <h2>Locations</h2>
+          </div>
+          <div class="office">
+            <h3>Shanghai showroom</h3>
+            <p>Hongqiao Textile Center 8F · Shenbin Road, Minhang, Shanghai</p>
+            <p>Tel 021-5888 1200</p>
+            <p>Sample visits, color cards and seasonal development</p>
+          </div>
+          <div class="office">
+            <h3>Shaoxing mill / warehouse</h3>
+            <p>Near China Textile City, Keqiao · Shaoxing, Zhejiang</p>
+            <p>Tel 0575-8412 6600</p>
+            <p>Bulk QC, rolling and dispatch</p>
+          </div>
+          <div class="office">
+            <h3>Email</h3>
+            <p>hello@lianji.textile · General</p>
+            <p>sample@lianji.textile · Sampling</p>
+            <p>order@lianji.textile · Bulk orders</p>
+          </div>
+          <div class="map">
+            <span>SHANGHAI SHOWROOM · 8F</span>
+          </div>
+        </div>
+        <form action="#" method="get" onsubmit="this.querySelector('.note').textContent='Noted. We will reply within one business day.'; return false;">
+          <div class="eyebrow">Inquiry</div>
+          <h2 class="serif" style="font-size:32px;font-weight:500">Visit / samples</h2>
+          <label>Name
+            <input type="text" name="name" required />
+          </label>
+          <label>Company
+            <input type="text" name="company" />
+          </label>
+          <label>Email
+            <input type="email" name="email" required />
+          </label>
+          <label>Request
+            <select name="type">
+              <option>Book a showroom visit</option>
+              <option>Ship color cards</option>
+              <option>Sampling / shade change</option>
+              <option>Bulk quotation</option>
+            </select>
+          </label>
+          <label>Notes
+            <textarea name="message" placeholder="Season, weight, use or reference number"></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+          <p class="note">The form only confirms on this page. Nothing is uploaded to a server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h3>Book a sample visit</h3>
+      <p>Weekdays 9:00 – 18:00. Visit the showroom or request remote samples.</p>
+    </div>
+    <div>
+      <p>Showroom · Hongqiao Textile Center 8F, Shanghai</p>
+      <p>Tel · 021-5888 1200</p>
+      <p>Email · hello@lianji.textile</p>
+    </div>
+    <div>
+      <p><a href="products.html">Catalog</a></p>
+      <p><a href="about.html">About</a></p>
+      <p><a href="process.html">How we work</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </div>
+    <div class="copy">© 2026 Lianji Textile LIANJI TEXTILE</div>
+  </footer>
+</body>
+</html>
