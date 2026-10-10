@@ -534,9 +534,12 @@ textarea { min-height: 120px; resize: vertical; }
 footer {
   padding: 72px 64px 40px;
   display: grid;
-  grid-template-columns: 1.2fr .8fr .8fr;
+  grid-template-columns: 1.15fr 1.05fr .8fr;
   gap: 40px;
   border-top: 1px solid var(--line);
+}
+footer .foot-showroom p {
+  white-space: nowrap;
 }
 footer h3 {
   font-family: "Cormorant Garamond", serif;
