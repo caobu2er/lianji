@@ -7,11 +7,12 @@
   <meta name="description" content="连际纺织品公司官网首页，简洁时尚的面料品牌展示" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/png" sizes="64x64" href="../favicon.png?v=16" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style.css?v=21" />
 </head>
 <body>
+  <a class="skip" href="#main">跳到正文</a>
   <header>
     <a class="logo" href="index.html">
       <span>连际纺织</span>
@@ -19,7 +20,7 @@
     </a>
     <input type="checkbox" id="nav-toggle" />
     <label class="menu-btn" for="nav-toggle">菜单</label>
-    <nav>
+    <nav id="site-nav">
       <a class="active" href="index.html">首页</a>
       <a href="products.html">产品</a>
       <a href="process.html">工艺</a>
@@ -34,7 +35,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero" style="padding:0">
       <div class="hero-copy">
         <div class="eyebrow">Textile House · Est. 2006</div>
@@ -46,14 +47,33 @@
         </div>
       </div>
       <div class="hero-visual">
-        <div class="drape">
-          <span class="a"></span>
-          <span class="b"></span>
-          <span class="c"></span>
-          <span class="d"></span>
+        <div class="studio"></div>
+        <div class="rail"></div>
+        <div class="cloths">
+          <span class="cloth cotton-c"></span>
+          <span class="cloth silk-c"></span>
+          <span class="cloth linen-c"></span>
+          <span class="cloth wool-c"></span>
         </div>
       </div>
     </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>有机棉</span>
+        <span>桑蚕丝</span>
+        <span>欧洲亚麻</span>
+        <span>美利奴羊毛</span>
+        <span>机能弹力</span>
+        <span>家纺贡缎</span>
+        <span>有机棉</span>
+        <span>桑蚕丝</span>
+        <span>欧洲亚麻</span>
+        <span>美利奴羊毛</span>
+        <span>机能弹力</span>
+        <span>家纺贡缎</span>
+      </div>
+    </div>
 
     <section>
       <div class="section-head">
@@ -157,7 +177,8 @@
       <p><a href="process.html">合作方式</a></p>
       <p><a href="contact.html">联系我们</a></p>
     </div>
-    <div class="copy">© 2026 杭州连际纺织 LIANJI TEXTILE</div>
+    <div class="copy">© 2026 杭州连际纺织 · LIANJI TEXTILE</div>
   </footer>
+  <script src="../js/site.js?v=21"></script>
 </body>
 </html>

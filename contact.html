@@ -7,11 +7,12 @@
   <meta name="description" content="Lianji Textile showroom, mill and sample appointments in Hangzhou and Shaoxing." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/png" sizes="64x64" href="favicon.png?v=16" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=21" />
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header>
     <a class="logo" href="index.html">
       <span>连际纺织</span>
@@ -19,7 +20,7 @@
     </a>
     <input type="checkbox" id="nav-toggle" />
     <label class="menu-btn" for="nav-toggle">Menu</label>
-    <nav>
+    <nav id="site-nav">
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
       <a href="process.html">Craft</a>
@@ -34,7 +35,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="page-hero weave" style="padding-top:88px">
       <div>
         <div class="eyebrow">Contact</div>
@@ -61,13 +62,17 @@
           </div>
           <div class="office">
             <h3>Email</h3>
-            <p>nancywy@lianjitextile.com · Inquiries welcome</p>
+            <p><a href="mailto:nancywy@lianjitextile.com">nancywy@lianjitextile.com</a> · Inquiries welcome</p>
           </div>
-          <div class="map">
+          <div class="office">
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/8613800000000">+86 138 0000 0000</a> · Weekdays 9:00 – 18:00</p>
+          </div>
+        </div>
+        <div class="map">
             <img src="img/hangzhou-map.svg" alt="Map of Zhejiang Grain and Oil Building, Hangzhou" />
             <span>HANGZHOU SHOWROOM · 7F</span>
           </div>
-        </div>
       </div>
     </section>
   </main>
@@ -88,7 +93,8 @@
       <p><a href="process.html">How we work</a></p>
       <p><a href="contact.html">Contact</a></p>
     </div>
-    <div class="copy">© 2026 Hangzhou Lianji Textile LIANJI TEXTILE</div>
+    <div class="copy">© 2026 Hangzhou Lianji Textile · LIANJI TEXTILE</div>
   </footer>
+  <script src="js/site.js?v=21"></script>
 </body>
 </html>

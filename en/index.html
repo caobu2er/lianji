@@ -7,11 +7,12 @@
   <meta name="description" content="Lianji Textile company homepage — a concise, fashion-forward fabric house." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/png" sizes="64x64" href="../favicon.png?v=7" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="64x64" href="../favicon.png?v=16" />
+  <link rel="stylesheet" href="../css/style.css?v=21" />
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header>
     <a class="logo" href="index.html">
       <span>连际纺织</span>
@@ -19,7 +20,7 @@
     </a>
     <input type="checkbox" id="nav-toggle" />
     <label class="menu-btn" for="nav-toggle">Menu</label>
-    <nav>
+    <nav id="site-nav">
       <a class="active" href="index.html">Home</a>
       <a href="products.html">Products</a>
       <a href="process.html">Craft</a>
@@ -27,14 +28,14 @@
       <a href="sustainability.html">Sustainability</a>
       <a href="contact.html">Contact</a>
       <span class="lang">
-        <a href="../index.html">中文</a>
+        <a href="../zh/index.html">中文</a>
         <a class="active" href="index.html">EN</a>
         <a href="../ru/index.html">RU</a>
       </span>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero" style="padding:0">
       <div class="hero-copy">
         <div class="eyebrow">Textile House · Est. 2006</div>
@@ -46,14 +47,33 @@
         </div>
       </div>
       <div class="hero-visual">
-        <div class="drape">
-          <span class="a"></span>
-          <span class="b"></span>
-          <span class="c"></span>
-          <span class="d"></span>
+        <div class="studio"></div>
+        <div class="rail"></div>
+        <div class="cloths">
+          <span class="cloth cotton-c"></span>
+          <span class="cloth silk-c"></span>
+          <span class="cloth linen-c"></span>
+          <span class="cloth wool-c"></span>
         </div>
       </div>
     </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Organic cotton</span>
+        <span>Mulberry silk</span>
+        <span>European flax</span>
+        <span>Merino wool</span>
+        <span>Performance stretch</span>
+        <span>Home sateen</span>
+        <span>Organic cotton</span>
+        <span>Mulberry silk</span>
+        <span>European flax</span>
+        <span>Merino wool</span>
+        <span>Performance stretch</span>
+        <span>Home sateen</span>
+      </div>
+    </div>
 
     <section>
       <div class="section-head">
@@ -146,7 +166,7 @@
       <h3>Book a sample visit</h3>
       <p>Weekdays 9:00 – 18:00. Visit the showroom or request remote samples.</p>
     </div>
-    <div>
+    <div class="foot-showroom">
       <p>Showroom · Zhejiang Grain &amp; Oil Building 7F, Hangzhou</p>
       <p>Email · nancywy@lianjitextile.com</p>
       <p>WhatsApp · +86 138 0000 0000</p>
@@ -157,7 +177,8 @@
       <p><a href="process.html">How we work</a></p>
       <p><a href="contact.html">Contact</a></p>
     </div>
-    <div class="copy">© 2026 Hangzhou Lianji Textile LIANJI TEXTILE</div>
+    <div class="copy">© 2026 Hangzhou Lianji Textile · LIANJI TEXTILE</div>
   </footer>
+  <script src="../js/site.js?v=21"></script>
 </body>
 </html>

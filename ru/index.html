@@ -7,11 +7,12 @@
   <meta name="description" content="Главная Lianji Textile — лаконичный модный дом тканей." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/png" sizes="64x64" href="../favicon.png?v=16" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style.css?v=21" />
 </head>
 <body>
+  <a class="skip" href="#main">К содержанию</a>
   <header>
     <a class="logo" href="index.html">
       <span>连际纺织</span>
@@ -19,7 +20,7 @@
     </a>
     <input type="checkbox" id="nav-toggle" />
     <label class="menu-btn" for="nav-toggle">Меню</label>
-    <nav>
+    <nav id="site-nav">
       <a class="active" href="index.html">Главная</a>
       <a href="products.html">Продукция</a>
       <a href="process.html">Производство</a>
@@ -34,7 +35,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero" style="padding:0">
       <div class="hero-copy">
         <div class="eyebrow">Textile House · Est. 2006</div>
@@ -46,14 +47,33 @@
         </div>
       </div>
       <div class="hero-visual">
-        <div class="drape">
-          <span class="a"></span>
-          <span class="b"></span>
-          <span class="c"></span>
-          <span class="d"></span>
+        <div class="studio"></div>
+        <div class="rail"></div>
+        <div class="cloths">
+          <span class="cloth cotton-c"></span>
+          <span class="cloth silk-c"></span>
+          <span class="cloth linen-c"></span>
+          <span class="cloth wool-c"></span>
         </div>
       </div>
     </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Organic cotton</span>
+        <span>Mulberry silk</span>
+        <span>European flax</span>
+        <span>Merino wool</span>
+        <span>Performance stretch</span>
+        <span>Home sateen</span>
+        <span>Organic cotton</span>
+        <span>Mulberry silk</span>
+        <span>European flax</span>
+        <span>Merino wool</span>
+        <span>Performance stretch</span>
+        <span>Home sateen</span>
+      </div>
+    </div>
 
     <section>
       <div class="section-head">
@@ -157,7 +177,8 @@
       <p><a href="process.html">Как мы работаем</a></p>
       <p><a href="contact.html">Контакты</a></p>
     </div>
-    <div class="copy">© 2026 Hangzhou Lianji Textile LIANJI TEXTILE</div>
+    <div class="copy">© 2026 Hangzhou Lianji Textile · LIANJI TEXTILE</div>
   </footer>
+  <script src="../js/site.js?v=21"></script>
 </body>
 </html>
